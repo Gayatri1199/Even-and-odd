@@ -1,0 +1,23 @@
+<html>
+    <body>
+    <h1>To find number even or odd!!</h1>
+    <form name="eo">
+        <input type="number" placeholder="Enter your numbr here!!" id="num">
+        <input type="button"      value="Press here for result" onclick="evenorodd()">
+        </form>
+    </body>
+    <script>
+    function evenorodd()
+        {
+            var digit=document.getElementById("num").value;
+            if(digit%2==0)
+                {
+                    alert("number is even");
+                }
+            else 
+                {
+                   alert("number is odd") ;
+                }
+        }
+    </script>
+</html>
